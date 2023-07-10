@@ -41,3 +41,19 @@ For the hard drive, I'm using them for storage and other files so I wanted somet
 
 <p align="center"><img src="https://github.com/jckaizen/prox-home-server/assets/57122203/04498d5f-4039-4679-b281-2c02fcebaff6" width="1000"></p>
 
+A lot of the programs on server are a mixture of LXC containers, docker, and just standalone VMs. This gives me a lot of flexibility in how I want to deploy the services.
+
+For example, if I wanted a service to only have one core of my CPU, I can do that. If I want or need them inside a docker container, I have single VM where I can put them inside.
+
+I won't list all the services that I have on my server, but these are the few important ones to me.
+
+- Jellyfin
+- Pihole
+- Nginx Proxy Manager
+- Nextcloud
+- Syncthing
+- Portainer
+- Wireguard (VPN)
+- Home Assistant
+
+Honestly, moving to Proxmox from just using docker was so easy. Dealing with only docker containers on my old server was a great learning experience for me and I wouldn't change that, but sometimes, I just wanted something installed without hassle or the instructions only showed me how to install a service or software for a package manager. You would have to sometimes jump through hoops to get a docker container.
