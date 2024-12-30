@@ -9,7 +9,7 @@ About a year ago, I started my very own home server for various services like ne
 
 But eventually I wanted something with more storage and power to run a hypervisor like proxmox while at the same time still being power-efficient (under 30 watts).
 
-Why a hypervisor? It would allow me to run some services that are hard to configure perfectly inside LXD or docker containers. So taking an very old desktop case, gutting it, then putting better and power-efficient componenents inside, I present you my server!
+Why a hypervisor? It would allow me to run some services that are hard to configure perfectly inside LXD or docker containers. So taking an very old desktop case, gutting it, then putting better and power-efficient componenents inside, I present to you my server!
 
 ## The Present
 
