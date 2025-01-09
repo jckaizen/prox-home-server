@@ -9,7 +9,7 @@ About a year ago, I started my very own home server for various services like ne
 
 But eventually I wanted something with more storage and power to run a hypervisor like proxmox while at the same time still being power-efficient (under 30 watts).
 
-Why a hypervisor? It would allow me to run some services that are hard to configure perfectly inside LXD or docker containers. So taking an very old desktop case, gutting it, then putting better and power-efficient componenents inside, I present to you my server!
+Why a hypervisor? It would allow me to run some services that are hard to configure perfectly inside docker containers. So taking an very old desktop case, gutting it, then putting better and power-efficient componenents inside, I present to you my server!
 
 ## The Present
 
@@ -18,7 +18,7 @@ Why a hypervisor? It would allow me to run some services that are hard to config
 
 ### Components
 
-Most of them are pretty normal; nothing server-grade. 
+Most of them are pretty normal; nothing server-grade.
 
 - Intel Quad-Core i3-10105T 3.0GBz
 - Asrock H510m-HDV R2.0 Motherboard
@@ -35,7 +35,7 @@ Most power supply that you see in normal computers are meant to have more power 
 
 They are usually used in small-form factor computers, but this fit my use case here. Overall, the server idles at around 20 watts; just 10 more watts compared to my laptop.
 
-For the hard drive, I'm using them for storage and other files so I wanted something that was up to the task. Plus I needed two of them to make a RAID 1 (mirror of each other) for redundancy.
+For the hard drives, I'm using them for storage and other files so I wanted something that was up to the task. Plus I needed two of them to make a RAID 1 (mirror of each other) for redundancy.
 
 ### Services and programs
 
