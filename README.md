@@ -62,7 +62,7 @@ Honestly, moving to Proxmox from just using docker was so easy. Dealing with onl
 
 This just proves that you don't need powerful hardware to get started with. So if you have a old laptop or computer kicking around, mabye it give it a try. You'll be surprised how capable something so old can still be used in many ways.
 
-### UPDATE
+### UPDATE (WIP)
 
 <p align="center"><img src="https://github.com/user-attachments/assets/2fbdf2ca-0c82-4730-aac2-701f80c20aa4" width="1000"></p>
 
